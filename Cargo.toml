@@ -1,0 +1,14 @@
+[package]
+name = "base64-wasm"
+version = "0.1.0"
+authors = ["rikoteki"]
+description = "Base64 encode and decode library"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/riko-teki/base64-wasm"
+
+[lib]
+crate-type = ["cdylib"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasm-bindgen = "0.2"
